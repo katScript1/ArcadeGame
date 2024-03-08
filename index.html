@@ -1,0 +1,59 @@
+<!--
+
+Name: Katherine Maldonado
+Project : Arcade Game HTML file
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy SpaceShip</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js" charset = "utf-8"></script>
+    <script src = "gameAudio.js" charset = "utf-8"></script>
+</head>
+<body>
+
+<div class = "game-container">
+    <div class = "title-container">
+        <img src="gameTitle.png" alt="Title Image">
+        <h1>Press SPACE to start</h1>
+    </div>
+    <div class = "borderLeft"></div>
+    <div class = "borderRight"></div>
+    <div class = "borderTop"></div>
+    <div class="score-container">
+        <span id="score">0</span>
+    </div>
+    <div class = "sky">
+        <div class = "spaceship"></div>
+        <div class="game-over-container">
+            <div class="game-over-message">
+                <img src="gameOver.png" alt="Game Over Image">
+                <div class = "button-container">
+                    <button id="restartButton">Restart Game</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "void" >
+        <div class="custom-select-container">
+            <select name="language" class="custom-select">
+                <option value="orange">ORANGE</option>
+                <option value="red">RED</option>
+                <option value="blue">BLUE</option>
+                <option value="pink">PINK</option>
+                <option value="green">GREEN</option>
+                <option value="yellow">YELLOW</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
